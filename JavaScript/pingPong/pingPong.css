@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+
+#player1{
+
+    position: absolute;
+    top:50%;
+    left:0%;
+   height: 140px;
+   width: 28px;
+   background-color: chartreuse;
+
+}
+
+
+#player2{
+
+    position: absolute;
+    top:50%;
+    right:0%;
+    height: 140px;
+    width: 28px;
+   background-color: chartreuse;
+
+}
+
+#ball{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: cornsilk;
+}

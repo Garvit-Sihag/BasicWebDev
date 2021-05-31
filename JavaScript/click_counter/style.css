@@ -1,0 +1,45 @@
+/* body{
+    background-color: black;
+} */
+
+
+#box{
+   
+    margin: auto;
+    margin-top: 8rem;
+    height: 10rem;
+    width: 10rem;
+
+    background-color: chartreuse;
+
+}
+
+p{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#reset{
+   margin-left: 45vw;
+    margin-top: 1rem;
+}
+
+#toggle{
+    margin:auto;
+    min-width: 100px;
+    min-height: 15px;
+    width: 5vw;
+    height: 3vh;
+    border: black solid;
+    border-radius: 10px;
+}
+
+.toggle-switch{
+    margin-left: 1vh;
+    min-height: 15px;
+    min-width: 15px;
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    background-color: black;
+}

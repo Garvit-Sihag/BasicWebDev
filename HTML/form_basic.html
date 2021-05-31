@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+
+    <div> 
+    <form action="">
+
+        <div> <label for="country"> Country </label> <br>
+                 <input type="text" required value="India" disabled >
+        </div> 
+
+        <div> <label for="email">E-mail</label> <br>
+            <input type="email" placeholder="abc@email.com" id="email" required >  </div>
+           <div> <label for="password">Password</label> <br>
+               <input type="password" id="password">   </div>
+           <div><input type="submit" placeholder="Sign in">  </div>
+    </form>
+  </div>
+   
+  <div> <form action="">
+
+    <p>Radio Buttons</p>
+    
+    <!-- giving value in radio button is important as it is passed on with name  -->
+
+    <label for="gender"> Gender</label> <br>
+    <input type="radio" name='gender' value="male" checked > Male <br> 
+    <input type="radio" name='gender' value="female"> Female <br>
+    <input type="radio" name='gender' value="other"> other <br>
+
+  </form> </div>
+
+  <div>
+    <p>Skills</p> <br>
+    <form action="">
+        
+        <input type="checkbox" name="cpp" value="cpp"> C++ <br>
+        <input type="checkbox" name="webdev" value="webdev"> web dev <br>
+        <input type="checkbox" name="ml" value="ml"> ml <br>
+
+    </form>
+
+  </div>
+    
+   <div>
+
+    <form action="">
+          <label for="month">Month</label>
+       <select name="month" id="month">
+            
+        <option value="Jan">Jan</option>
+        <option value="March">march</option>
+        <option value="Apr" selected>Apr</option>
+<option value="May">May</option>
+<option value="June">June</option>
+       </select>
+
+    </form>
+
+   </div>
+
+   <div>
+
+    <form action="">
+          <label for="month">Multi - Month - select</label>
+       <select name="month_multi" id="month_multi" multiple>
+            
+        <option value="Jan">Jan</option>
+        <option value="March">march</option>
+        <option value="Apr" selected>Apr</option>
+<option value="May">May</option>
+<option value="June">June</option>
+       </select>
+
+    </form>
+
+
+    <!-- button created button tag and using input tag the difference is that an image is added to a button if a button is made using button tag -->
+
+<div>  
+
+    <label for="review">Review</label> <br>
+      <textarea name="review" id="review" cols="30" rows="10" placeholder="enter your review here"></textarea>
+      <br> <input type="button" value="button 1">
+      <br>
+      <button type="button"> yo </button>
+</div>
+
+   </div>
+
+ <!-- form has two attributes method (GET or POST) and action -->
+
+
+
+</body>
+</html>

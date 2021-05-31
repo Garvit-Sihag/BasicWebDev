@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+
+
+}
+
+select{
+    appearance: none;
+}
+
+
+
+#dog-list{
+    position: absolute;
+    top: 20%;
+    left:20%;
+    color: white;
+    background-color: black;
+    width: 20%;
+    height: 5%;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    border:blueviolet solid;
+}
+
+div{
+    cursor: pointer;
+    text-align: center;
+    padding-top: 5px;
+    font-size:1.4rem;
+    /* height: 5%; */
+    /* width: 10%; */
+   min-height:35px;
+   min-width: 150px;
+
+    background-color: blueviolet;
+    /* border: white solid; */
+    border-radius: 5px;
+    color: white;
+}
+
+#get-img{
+    position: absolute;
+    right: 20%;
+    top: 20%;
+}
+
+ #next{
+    position: absolute;
+    right: 20%;
+    top: 60%;
+ } 
+
+ #dog-img{
+    position: absolute;
+    top: 40%;
+    left:5%;
+
+    max-height: 300px;
+    max-width: 500px;
+
+ }

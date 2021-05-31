@@ -1,0 +1,26 @@
+#container{
+    display: flex;
+      justify-content: space-around;
+    height: 50%;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+#container>div{
+    height: 400px;
+    width: 200px;
+    border: whitesmoke solid;
+    background-color: tomato;
+}
+
+@media screen and (max-width:600px){
+
+    #container{
+        flex-direction: column;
+    }
+
+    #container>div{
+        width: 100%;
+    }
+
+}

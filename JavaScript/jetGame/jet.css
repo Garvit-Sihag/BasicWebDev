@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+#battleground{
+    position: absolute;
+    height: 98%;
+    width: 95vw;
+    left: 2vw;
+    border: tomato solid;
+    overflow: hidden;
+
+}
+
+#jet{
+    position: absolute;
+    font-size: 3rem;
+    top: 50%;
+    left: 0;
+    color: chartreuse;
+}
+
+.monster{
+    position: absolute;
+    font-size: 2rem;
+    color: tomato;
+    right:-2.5rem;
+    /* animation: monsterMove  10s ease-in-out 1; */
+}
+
+
+
+
+
+
+@keyframes monsterMove{
+   
+    from{
+        right:-2.3rem;
+    }
+
+
+    to{
+        right:100%;
+    }
+
+
+}
